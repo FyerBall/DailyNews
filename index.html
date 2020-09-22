@@ -1,169 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-    integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)" />
-  <title>Document</title>
-</head>
-<header>
-  <div class="header__info">
-    <div class="date">
-      Monday, 29 Jun 2020
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="screen and (max-width: 768px)"
+    />
+    <title>Document</title>
+  </head>
+  <header>
+    <div class="header__info">
+      <div class="date">Monday, 29 Jun 2020</div>
+      <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-google"></i>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="search..." />
+        <i class="fas fa-search"></i>
+      </div>
     </div>
-    <div class="icons">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-facebook"></i>
-      <i class="fab fa-google"></i>
+    <div class="header__title">
+      <h1>Hello World</h1>
+      <p>Newspaper</p>
     </div>
-    <div class="search">
-      <input type="search" placeholder="search..." />
-      <i class="fas fa-search"></i>
-    </div>
-  </div>
-  <div class="header__title">
-    <h1>Hello World</h1>
-    <p>Newspaper</p>
-  </div>
-  <nav class="navbar">
-    <ul class="nav__item">
-      <li class="nav__link"><a href="/" class="links">Home</a></li>
-      <li class="nav__link"><a href="/" class="links">News</a></li>
-      <li class="nav__link"><a href="/" class="links">Economy</a></li>
-      <li class="nav__link"><a href="/" class="links">Entertainment</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav class="navbar">
+      <ul class="nav__item">
+        <li class="nav__link"><a href="#" class="links">Home</a></li>
+        <li class="nav__link"><a href="#" class="links">News</a></li>
+        <li class="nav__link"><a href="#" class="links">Economy</a></li>
+        <li class="nav__link"><a href="#" class="links">Entertainment</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<body>
-  <section class="breakingNews">
-    <h3>Breaking News</h3>
-    <div class="breakingNews__container">
-      <div class="breakingNews__card">
-        <img src="/imgs/Protest.jpeg" alt="" />
-        <div class="">
-          <a>Lorem ipsum dolor sit.</a>
+  <body>
+    <section class="breakingNews">
+      <h3>Breaking News</h3>
+      <div class="breakingNews__container">
+        <div class="breakingNews__card">
+          <img src="./imgs/Protest.jpeg" alt="" />
+          <div class="">
+            <a>Lorem ipsum dolor sit.</a>
 
-          <div class="breakingNews__status">
-            <span>1 Min Ago</span>
+            <div class="breakingNews__status">
+              <span>1 Min Ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="breakingNews__card">
+          <img src="./imgs/Protest.jpeg" alt="" />
+          <div class="">
+            <a>Lorem ipsum dolor sit.</a>
+
+            <div class="breakingNews__status">
+              <span>12 Hour Ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="breakingNews__card">
+          <img src="./imgs/Protest.jpeg" alt="" />
+          <div class="">
+            <a>Lorem ipsum dolor sit.</a>
+
+            <div class="breakingNews__status">
+              <span>14 Jun, 2020</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="breakingNews__card">
+          <img src="./imgs/Protest.jpeg" alt="" />
+          <div class="">
+            <a>Lorem ipsum dolor sit.</a>
+
+            <div class="breakingNews__status">
+              <span>17 Jun, 2020</span>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="breakingNews__card">
+    <section class="articles">
+      <article class="article">
         <img src="/imgs/Protest.jpeg" alt="" />
-        <div class="">
-          <a>Lorem ipsum dolor sit.</a>
-
-          <div class="breakingNews__status">
-            <span>12 Hour Ago</span>
+        <div class="category featured">Featured</div>
+        <h2 class="article__title">
+          <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+        </h2>
+        <p class="article__story">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          laboriosam dolor ex vel repellendus, ipsam excepturi perspiciatis quia
+          nisi autem pariatur! Totam quo praesentium laudantium qui? Soluta
+          consectetur aliquid odit!
+        </p>
+        <div class="auther">
+          <img src="./imgs/Author.jpeg" alt="Image" />
+          <span>By <a href="#">Jane Doe</a></span>
+        </div>
+      </article>
+      <article class="popularArticle">
+        <h3>Popular Article</h3>
+        <div class="popularArticle__container">
+          <div class="popularArticle__info">
+            <a href="/"> Lorem ipsum dolor sit. </a>
+            <span class="popularArticle__info--date">1 Jan, 2020</span>
           </div>
+          <img src="./imgs/Protest.jpeg" alt="" />
         </div>
-      </div>
 
-      <div class="breakingNews__card">
-        <img src="/imgs/Protest.jpeg" alt="" />
-        <div class="">
-          <a>Lorem ipsum dolor sit.</a>
-
-          <div class="breakingNews__status">
-            <span>14 Jun, 2020</span>
+        <div class="popularArticle__container">
+          <div class="popularArticle__info">
+            <a href="/"> Lorem ipsum dolor sit. </a>
+            <span class="popularArticle__info--date">14 Feb, 2020</span>
           </div>
+          <img src="./imgs/Protest.jpeg" alt="" />
         </div>
-      </div>
 
-      <div class="breakingNews__card">
-        <img src="/imgs/Protest.jpeg" alt="" />
-        <div class="">
-          <a>Lorem ipsum dolor sit.</a>
-
-          <div class="breakingNews__status">
-            <span>17 Jun, 2020</span>
+        <div class="popularArticle__container">
+          <div class="popularArticle__info">
+            <a href="/"> Lorem ipsum dolor sit. </a>
+            <span class="popularArticle__info--date">30 Mar, 2020</span>
           </div>
+          <img src="./imgs/Protest.jpeg" alt="" />
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="articles">
-    <article class="article">
-      <img src="/imgs/Protest.jpeg" alt="" />
-      <div class="category featured">Featured</div>
-      <h2 class="article__title">
-        <a href="/">Lorem ipsum dolor sit amet consectetur.</a>
-      </h2>
-      <p class="article__story">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-        laboriosam dolor ex vel repellendus, ipsam excepturi perspiciatis quia
-        nisi autem pariatur! Totam quo praesentium laudantium qui? Soluta
-        consectetur aliquid odit!
-      </p>
-      <div class="auther">
-        <img src="/imgs/Author.jpeg" alt="Image" />
-        <span>By <a href="/">Jane Doe</a></span>
-      </div>
-    </article>
-    <article class="popularArticle">
-      <h3>Popular Article</h3>
-      <div class="popularArticle__container">
-        <div class="popularArticle__info">
-          <a href="/">
-            Lorem ipsum dolor sit.
-          </a>
-          <span class="popularArticle__info--date">1 Jan, 2020</span>
+        <div class="popularArticle__container">
+          <div class="popularArticle__info">
+            <a href="/"> Lorem ipsum dolor sit. </a>
+            <span class="popularArticle__info--date">1 Apr, 2020</span>
+          </div>
+          <img src="./imgs/Protest.jpeg" alt="" />
         </div>
-        <img src="./imgs/Protest.jpeg" alt="" />
-      </div>
 
-      <div class="popularArticle__container">
-        <div class="popularArticle__info">
-          <a href="/">
-            Lorem ipsum dolor sit.
-          </a>
-          <span class="popularArticle__info--date">14 Feb, 2020</span>
+        <div class="popularArticle__container">
+          <div class="popularArticle__info">
+            <a href="/"> Lorem ipsum dolor sit. </a>
+            <span class="popularArticle__info--date">31 AUG, 2020</span>
+          </div>
+          <img src="./imgs/Protest.jpeg" alt="" />
         </div>
-        <img src="./imgs/Protest.jpeg" alt="" />
-      </div>
+      </article>
+    </section>
+  </body>
 
-      <div class="popularArticle__container">
-        <div class="popularArticle__info">
-          <a href="/">
-            Lorem ipsum dolor sit.
-          </a>
-          <span class="popularArticle__info--date">30 Mar, 2020</span>
-        </div>
-        <img src="./imgs/Protest.jpeg" alt="" />
-      </div>
-
-      <div class="popularArticle__container">
-        <div class="popularArticle__info">
-          <a href="/">
-            Lorem ipsum dolor sit.
-          </a>
-          <span class="popularArticle__info--date">1 Apr, 2020</span>
-        </div>
-        <img src="./imgs/Protest.jpeg" alt="" />
-      </div>
-
-      <div class="popularArticle__container">
-        <div class="popularArticle__info">
-          <a href="/">
-            Lorem ipsum dolor sit.
-          </a>
-          <span class="popularArticle__info--date">31 AUG, 2020</span>
-        </div>
-        <img src="./imgs/Protest.jpeg" alt="" />
-      </div>
-    </article>
-  </section>
-</body>
-
-<footer>
-  <p>Copyright &copy; 2020, All rights reserved</p>
-</footer>
-
+  <footer>
+    <p>Copyright &copy; 2020, All rights reserved</p>
+  </footer>
 </html>
